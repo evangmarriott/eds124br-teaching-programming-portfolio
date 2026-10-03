@@ -2,7 +2,9 @@
 
 A course-long collection of programming projects, explanations, teaching ideas, and reflections for EDS 124BR.
 
-**Published site:** https://evangmarriott.github.io/eds124br-teaching-programming-portfolio/
+**Published site:** [Open the course portfolio](https://evangmarriott.github.io/eds124br-teaching-programming-portfolio/)
+
+This GitHub Pages address stays the same when the site is rebuilt or new work is added.
 
 ## Add new course work
 
@@ -14,12 +16,11 @@ The site is a static portfolio. Add files in this repository, then add a short c
 4. For a video stored in this repository, use a player like this inside the card:
 
 ```html
-<details class="video">
-  <summary>Watch the explanation</summary>
+<div class="video">
   <video controls preload="metadata" playsinline>
     <source src="your-video.mp4" type="video/mp4">
   </video>
-</details>
+</div>
 ```
 
 5. Commit the changes to `main`. GitHub Pages publishes the update automatically after its build completes.
