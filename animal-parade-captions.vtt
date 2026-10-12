@@ -1,0 +1,80 @@
+WEBVTT
+
+00:00.000 --> 00:05.800
+Story of my code is an animal parade, so the kangaroo and grasshopper move while
+
+00:05.800 --> 00:11.460
+changing costumes, and the bee flies around a circular path. The green flag
+
+00:11.460 --> 00:15.720
+resets their starting positions. It also resets the kangaroo and grasshoppers
+
+00:15.720 --> 00:20.640
+costumes and points the bee to the right, so that happens when you click. The
+
+00:20.640 --> 00:27.680
+green flag, so say I were here, then it will reset. So the kangaroo, my code
+
+00:27.680 --> 00:32.960
+repeats in this part to animate the kangaroo. So clicking the kangaroo runs the
+
+00:32.960 --> 00:39.520
+loop eight times, as you can see here. Each time it waits 0.2 seconds moves 15
+
+00:39.520 --> 00:42.760
+steps and switches to the next costume, so it kind of looks like it's hopping,
+
+00:42.760 --> 00:51.080
+and that moves it 120 steps in total. The four costumes cycle twice. So the
+
+00:51.080 --> 00:56.400
+green flag returns the grasshopper to its starting position, so say I were to
+
+00:56.400 --> 01:01.200
+click the grasshopper and we can go return it back. And clicking it repeats a
+
+01:01.200 --> 01:07.160
+similar sequence 12 times, so of him kind of just jumping along like that. And
+
+01:07.160 --> 01:12.480
+each repetition waits 0.15 seconds, moves 10 steps and switches costumes.
+
+01:12.480 --> 01:18.120
+Also you can see the code here as well. It also moves 120 steps in total and
+
+01:18.120 --> 01:25.020
+its six costumes cycle twice. And the green flag also will then like do the
+
+01:25.020 --> 01:31.860
+same thing and it'll return the Bee to the starting position right here. And when
+
+01:31.860 --> 01:36.540
+we click the green flag, it returns everything back. And clicking the Bee
+
+01:36.540 --> 01:42.980
+repeats 24 times. So each repetition, repetition changes costume, turns clockwise
+
+01:42.980 --> 01:48.620
+15 degrees, moves eight steps, and waits 0.1 seconds. So as you can see he
+
+01:48.620 --> 01:52.700
+kind of like floats around, he buzzes around there. And the small turns and
+
+01:52.700 --> 01:57.940
+movements make a circular path because 24 times 15 is 360 degrees and the
+
+01:57.940 --> 02:04.740
+wait makes the animation visible. So one thing a student might struggle with
+
+02:04.740 --> 02:10.020
+is understanding which blocks repeat. Every block inside the repeat runs each
+
+02:10.020 --> 02:14.820
+time while a block after it runs only once after the loop finishes. For
+
+02:14.820 --> 02:20.300
+example, if I move the Bee's turn block after the repeat, it would move in a
+
+02:20.300 --> 02:24.660
+straight line and turn once afterwards.
+
