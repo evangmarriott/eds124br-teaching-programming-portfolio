@@ -1,0 +1,45 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:11.409
+The purpose of my program is to show how different events make the same turtle respond in different ways. The green flag resets it, the space key draws a square, and clicking the turtle makes it spin.
+
+2
+00:00:11.409 --> 00:00:19.378
+Here is the complete run: first the green flag, then space, then a click on the turtle. Each action triggers a different script.
+
+3
+00:00:28.818 --> 00:00:37.932
+My code works by using events in this part to reset the program when the green flag is clicked. The yellow event block starts only the blocks connected beneath it.
+
+4
+00:00:37.932 --> 00:00:52.891
+Pen up prevents unwanted lines during repositioning. Clear erases previous pen marks. Go to x minus one hundred, y minus sixty sets the starting position. Point in direction ninety faces the turtle right. Say displays the controls.
+
+5
+00:00:52.891 --> 00:01:01.928
+It also uses events in this part to draw when the space key is pressed. Say announces the event for one second. Pen down makes movement leave a line.
+
+6
+00:01:01.928 --> 00:01:12.961
+Repeat four runs its three inside blocks four times: move one hundred steps draws a side, turn ninety degrees makes a corner, and wait a quarter second lets us see the drawing happen.
+
+7
+00:01:12.961 --> 00:01:21.975
+After the repeat finishes, pen up stops drawing, and say reports that the square is complete. Four equal sides and four right turns make the square.
+
+8
+00:01:21.975 --> 00:01:32.696
+It also uses events in this part to spin when the turtle is clicked. Say announces the click for one second. Repeat twelve turns thirty degrees and waits one tenth of a second each time.
+
+9
+00:01:32.696 --> 00:01:44.569
+Twelve times thirty is three hundred sixty degrees, so the turtle makes one full turn. The last say block reports completion. With the pen already up after drawing, this spin adds no lines.
+
+10
+00:01:44.569 --> 00:01:57.844
+If I were to change this event like this, replacing space with the A key in the yellow key event block, the program would run differently: pressing space would no longer draw the square; pressing A would start that same drawing script.
+
+11
+00:01:57.844 --> 00:02:08.870
+The drawing instructions would stay unchanged. This shows that the event chooses when a sequence begins. The scripts wait for their own triggers rather than running simply because they appear next to each other.

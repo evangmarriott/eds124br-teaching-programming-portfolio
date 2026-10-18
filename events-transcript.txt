@@ -1,0 +1,49 @@
+Events Playground — explanation script
+
+Prepared with OpenAI Codex. The video uses synthetic narration; review the program and explanation before publishing.
+
+Events Playground
+
+The purpose of my program is to show how different events make the same turtle respond in different ways. The green flag resets it, the space key draws a square, and clicking the turtle makes it spin.
+
+Complete run: flag → Space → click
+
+Here is the complete run: first the green flag, then space, then a click on the turtle. Each action triggers a different script.
+
+Event 1 • Green flag: reset
+
+My code works by using events in this part to reset the program when the green flag is clicked. The yellow event block starts only the blocks connected beneath it.
+
+Event 1 • Green flag: reset
+
+Pen up prevents unwanted lines during repositioning. Clear erases previous pen marks. Go to x minus one hundred, y minus sixty sets the starting position. Point in direction ninety faces the turtle right. Say displays the controls.
+
+Event 2 • Space: draw a square
+
+It also uses events in this part to draw when the space key is pressed. Say announces the event for one second. Pen down makes movement leave a line.
+
+Event 2 • Space: draw a square
+
+Repeat four runs its three inside blocks four times: move one hundred steps draws a side, turn ninety degrees makes a corner, and wait a quarter second lets us see the drawing happen.
+
+Event 2 • Space: draw a square
+
+After the repeat finishes, pen up stops drawing, and say reports that the square is complete. Four equal sides and four right turns make the square.
+
+Event 3 • Click the turtle: spin
+
+It also uses events in this part to spin when the turtle is clicked. Say announces the click for one second. Repeat twelve turns thirty degrees and waits one tenth of a second each time.
+
+Event 3 • Click the turtle: spin
+
+Twelve times thirty is three hundred sixty degrees, so the turtle makes one full turn. The last say block reports completion. With the pen already up after drawing, this spin adds no lines.
+
+What changes if Space becomes A?
+
+If I were to change this event like this, replacing space with the A key in the yellow key event block, the program would run differently: pressing space would no longer draw the square; pressing A would start that same drawing script.
+
+What changes if Space becomes A?
+
+The drawing instructions would stay unchanged. This shows that the event chooses when a sequence begins. The scripts wait for their own triggers rather than running simply because they appear next to each other.
+
+Recording order: green flag, Space (wait for square), click turtle (wait for spin).
