@@ -50,7 +50,7 @@ function showLinkedVideo() {
   const project = document.getElementById(location.hash.slice(1));
   const video = project && project.matches('.project') && project.querySelector('video');
   if (video) {
-    const top = video.getBoundingClientRect().top + window.scrollY - 24;
+    const top = project.getBoundingClientRect().top + window.scrollY - 24;
     window.scrollTo({top: Math.max(0, top), behavior: 'instant'});
   }
 }
